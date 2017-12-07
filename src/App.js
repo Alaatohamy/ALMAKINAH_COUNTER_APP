@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Counter from './containers/CounterContainer';
+import Todos from './containers/TodosContainer';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
         </header>
         <p className="App-intro">
           <Counter />
+          <Todos />
         </p>
       </div>
     );
